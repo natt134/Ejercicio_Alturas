@@ -17,7 +17,7 @@ public class Alturas {
         Scanner Leer=new Scanner (System.in);
         System.out.println("Ingrese cuantas alturas va a ingresar:");  
         tamaño_arreglo=Leer.nextInt();
-        double [] Alturas=new double[tamaño_arreglo];
+        Alturas=new double[tamaño_arreglo];
         for (int i = 0; i <Alturas.length; i++) {
             System.out.println("Ingrese la altura "+(i+1));  
             Alturas[i]=Leer.nextDouble();
